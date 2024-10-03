@@ -1,10 +1,11 @@
 NOTICE: This repository is not maintained, it is simply a mirror of the original library from ComponentAce.
 For an active fork, try https://github.com/Elskom/zlib.managed/
 
-zlib.managed has since been archived as a bug in compression/decompression happens that does not happen
-when doing manual p/invokes. As such for .NET 8+ I recommend to use the ZlibSharp nuget package instead
-which also adds in simplified ZlibEncoder and ZlibDecorer types that operate on
-System.Memory.Span's for performance.
+zlib.managed has since been archived as a bug in compression/decompression has been identified to happen
+that does not happen when doing manual p/invokes. This bug also happens in the original ZLIB.NET as well.
+As such for .NET 8+ I recommend to use the ZlibSharp nuget package instead which also adds in simplified
+ZlibEncoder and ZlibDecorer types that operate on System.Memory.Span's for performance.
+
 
 ZLIB.NET: README
 ==================================================
