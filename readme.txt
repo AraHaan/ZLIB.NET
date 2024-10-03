@@ -6,7 +6,6 @@ that does not happen when doing manual p/invokes. This bug also happens in the o
 As such for .NET 8+ I recommend to use the ZlibSharp nuget package instead which also adds in simplified
 ZlibEncoder and ZlibDecorer types that operate on System.Memory.Span's for performance.
 
-
 ZLIB.NET: README
 ==================================================
 
